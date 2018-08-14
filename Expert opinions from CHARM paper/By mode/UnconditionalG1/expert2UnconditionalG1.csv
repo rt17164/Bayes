@@ -1,0 +1,11 @@
+"expertnb","mode","values","logHR values","p","weight","logHR","best.fit","LHR mean","LHR sd","mean","sd","baseline"
+2,"UnconditionalG1",6,-1.1654,0,0,NA,"Normal",-0.12,0.2466,16.541,3.4482,18
+2,"UnconditionalG1",9,-0.7439,0,0,NA,"Normal",-0.12,0.2466,16.541,3.4482,18
+2,"UnconditionalG1",12,-0.4398,0.12,0.12,-0.5816,"Normal",-0.12,0.2466,16.541,3.4482,18
+2,"UnconditionalG1",15,-0.1997,0.31,0.19,-0.3136,"Normal",-0.12,0.2466,16.541,3.4482,18
+2,"UnconditionalG1",18,0,0.67,0.36,-0.0958,"Normal",-0.12,0.2466,16.541,3.4482,18
+2,"UnconditionalG1",21,0.1721,0.9,0.23,0.089,"Normal",-0.12,0.2466,16.541,3.4482,18
+2,"UnconditionalG1",24,0.3242,1,0.1,0.2503,"Normal",-0.12,0.2466,16.541,3.4482,18
+2,"UnconditionalG1",27,0.4611,1,0,NA,"Normal",-0.12,0.2466,16.541,3.4482,18
+2,"UnconditionalG1",30,0.5863,1,0,NA,"Normal",-0.12,0.2466,16.541,3.4482,18
+2,"UnconditionalG1",33,0.7021,1,0,NA,"Normal",-0.12,0.2466,16.541,3.4482,18
