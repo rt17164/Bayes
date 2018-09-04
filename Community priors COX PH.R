@@ -90,23 +90,23 @@ post <- list()
    post[[expertnb]] <-  posterior_plot(expertnb = expertnb)
 }
  
-# 
+# #
 # # Combined
-# vag <- RunParallelBUGS(prior = "vague",combined=T,  DataInfo= DataInfo)
-# entComb <- RunParallelBUGS(prior = "enthusiastic",combined=T,  DataInfo= DataInfo)
-# scepComb <- RunParallelBUGS(prior = "sceptical",combined=T,  DataInfo= DataInfo)
-# intComb <- RunParallelBUGS(prior = "interaction",combined=T,  DataInfo= DataInfo)
-# int2Comb <- RunParallelBUGS(prior = "interaction2",combined=T,  DataInfo= DataInfo)
+# vag <- RunParallelBUGS(prior = "vague",combined=T,  DataInfo= DataInfo, work=work)
+# entComb <- RunParallelBUGS(prior = "enthusiastic",combined=T,  DataInfo= DataInfo, work=work)
+# scepComb <- RunParallelBUGS(prior = "sceptical",combined=T,  DataInfo= DataInfo, work=work)
+# intComb <- RunParallelBUGS(prior = "interaction",combined=T,  DataInfo= DataInfo, work=work)
+# int2Comb <- RunParallelBUGS(prior = "interaction2",combined=T,  DataInfo= DataInfo, work=work)
 # 
 # # Alternative Prior constructions
-# intCombMarg <- RunParallelBUGS(prior = "interaction",combined=T,  DataInfo= DataInfo, marginal = T)
-# intCombMean <- RunParallelBUGS(prior = "interaction",combined=T,  DataInfo= DataInfo, MeanSens = T)
-# intCombCov1 <- RunParallelBUGS(prior = "interaction",combined=T,  DataInfo= DataInfo, CovSens = 1)
-# intCombCov2 <- RunParallelBUGS(prior = "interaction",combined=T,  DataInfo= DataInfo, CovSens = 2)
+# intCombMarg <- RunParallelBUGS(prior = "interaction",combined=T,  DataInfo= DataInfo, work=work, marginal = T)
+# intCombMean <- RunParallelBUGS(prior = "interaction",combined=T,  DataInfo= DataInfo, work=work, MeanSens = T)
+# intCombCov1 <- RunParallelBUGS(prior = "interaction",combined=T,  DataInfo= DataInfo, work=work, CovSens = 1)
+# intCombCov2 <- RunParallelBUGS(prior = "interaction",combined=T,  DataInfo= DataInfo, work=work, CovSens = 2)
 # 
 # 
 # 
-# # Posterior plot 
+# # Posterior plot
 # source(paste(computerwd,"Bristol/NIHR RMF/GAP Bayesian/Histograms.Shiny/Figure 3 & 4.R", sep=""))
 # "C:/Users/rt17164/Google Drive/Bristol/NIHR RMF/GAP Bayesian/Histograms.Shiny/Figure 3 & 4.R"
 # 
